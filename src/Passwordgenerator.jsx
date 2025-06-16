@@ -40,18 +40,18 @@ let Passwordgenerator=()=>{
             &nbsp;&nbsp;&nbsp;  
             <input value={passwordLength} onChange={(e)=>setPasswordLength(e.target.value)} type="number" />
         </div>
-        <div>
-            <label >Include UpperCase:</label>
-            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;  
+        <div className="option">
+            <label > UpperCase:</label>
+            
             <Switch checked={includeuppercase} onChange={()=>setincludeuppercase(!includeuppercase)}/>   
         </div>
-         <div>
-            <label >Include Numbers:</label>
+         <div className="option">
+            <label > Numbers:</label>
             <Switch checked={includenumbers} onChange={()=>setincludenumbers(!includenumbers)}/>   
         </div>
-         <div>
-            <label >Include Special Characters:</label>
-            <Switch checked={includespecial} onChange={()=>setincludespecial(!includespecial)}/>   
+         <div className="option">
+            <label > Special Characters:</label>
+            <Switch  checked={includespecial} onChange={()=>setincludespecial(!includespecial)}/>   
         </div>
         <button onClick={generatePassword}> Generate Password</button>
         <h2>{password}</h2>
