@@ -1,12 +1,37 @@
-# React + Vite
+# Password Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple password generator created using React. It allows you to generate strong, random passwords of a specified length and with optional requirements such as including numbers, symbols, and uppercase/lowercase letters.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+- Generates a random password based on user-defined criteria:
+  - Length
+  - Character types (lowercase letters, uppercase letters, numbers, and special characters).
+- Responsive design for use on desktop and mobile devices.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Possible Future Feature
+
+Option to use a known word in the generated password for easier memorization.
+
+## Installation
+
+To run this application locally, you must have Node.js and npm installed on your computer. Then, follow these steps:
+
+  1. Clone this repository onto your computer.
+  2. Open a terminal window and navigate to the project directory.
+  3. Run npm install to install the necessary dependencies.
+  4. Run npm run dev to start the development server.
+  5. Open your web browser and go to http://localhost:5173 to view the application.
+     
+## Usage
+
+To use the password generator, simply adjust the length and requirements of your desired password using the input fields and toggle buttons. Then, click the "Generate Password" button to create a new password.
+
+## Demo
+
+A live demo of this project is available at https://vasampavan.github.io/passwordgenerator/
+
+## Contributing
+
+If you have any suggestions or issues, feel free to open a pull request or issue on the GitHub repository.
